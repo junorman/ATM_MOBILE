@@ -1,4 +1,5 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:atm2/accueil.dart';
 import 'package:atm2/login.dart';
 import 'package:flutter/material.dart';
 
@@ -37,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container(
           child: AnimatedSplashScreen(
             splash: Image.asset("assets/logo.jpg"),
-            nextScreen: Login(),
+            nextScreen: Accueil(),
             splashTransition: SplashTransition.rotationTransition,
             backgroundColor: Colors.white,
           ),
